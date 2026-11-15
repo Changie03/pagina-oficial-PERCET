@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERCET Universal Holdings S.A.C. | Ingeniería, Techos Metálicos, Drywall y Consultoría BIM en Perú</title>
+    <meta name="description" content="Contratista General B2B en Perú (RUC: 20614633345). Especialistas en Techos Metálicos (Contingencia Fenómeno del Niño NTE E.090), Remodelación Corporativa con Drywall (INDECI A.130), Obras Civiles y Consultoría BIM/VDC.">
+    <meta name="keywords" content="PERCET Universal Holdings, RUC 20614633345, techos metálicos Lima Perú, estructuras metálicas NTE E.090, remodelación con drywall oficinas, contratistas obras civiles Perú, consultoría BIM VDC, PERCET GeoRisk 360">
+    <meta name="author" content="PERCET UNIVERSAL HOLDINGS S.A.C.">
+    
+    <!-- Google Fonts: Inter & JetBrains Mono para códigos normativos y RUC -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons (Iconografía Vectorial Técnica) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Datos Estructurados Schema.org para SEO Corporativo en Google Perú -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ConstructionBusiness",
+      "name": "PERCET UNIVERSAL HOLDINGS S.A.C.",
+      "taxID": "20614633345",
+      "url": "https://percetuniversalholdings.netlify.app/",
+      "telephone": "+51981328639",
+      "email": "oficina.tecnica.puh@outlook.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lima",
+        "addressRegion": "Lima",
+        "addressCountry": "PE"
+      },
+      "description": "Empresa peruana de ingeniería, ejecución de estructuras metálicas, coberturas pluviales, remodelación corporativa en sistema Drywall, obras civiles y consultoría tecnológica BIM/VDC.",
+      "areaServed": "PE"
+    }
+    </script>
+
+    <!-- Configuración de Paleta Corporativa Inspirada en el Logo Metálico y Azul Cobalto Profundo -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        percet: {
+                            abyss: '#040D1A',     /* Azul abisal ultra oscuro */
+                            navy: '#0A1E3C',      /* Azul marino corporativo profundo */
+                            cobalt: '#102C57',    /* Azul cobalto real del logo */
+                            electric: '#0EA5E9',  /* Cian/Azul brillante de acento tecnológico */
+                            silver: '#E2E8F0',    /* Plata metálico claro */
+                            steel: '#94A3B8',     /* Acero estructural */
+                            amber: '#F97316',     /* Naranja industrial para alertas y conversión */
+                            amberDark: '#EA580C'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Estilos Corporativos de Alta Precisión */
+        body {
+            background-color: #040D1A;
+            color: #E2E8F0;
+        }
+        .glass-header {
+            background: rgba(4, 13, 26, 0.92);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+        }
+        .metallic-text {
+            background: linear-gradient(180deg, #FFFFFF 0%, #CBD5E1 52%, #94A3B8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .cobalt-card {
+            background: linear-gradient(145deg, rgba(16, 44, 87, 0.55) 0%, rgba(10, 30, 60, 0.85) 100%);
+            border: 1px solid rgba(148, 163, 184, 0.16);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .cobalt-card:hover {
+            border-color: rgba(14, 165, 233, 0.5);
+            transform: translateY(-4px);
+            box-shadow: 0 20px 35px -10px rgba(2, 132, 199, 0.2);
+        }
+        .priority-card-amber {
+            background: linear-gradient(145deg, rgba(16, 44, 87, 0.7) 0%, rgba(4, 13, 26, 0.95) 100%);
+            border: 1px solid rgba(249, 115, 22, 0.35);
+        }
+        .priority-card-cyan {
+            background: linear-gradient(145deg, rgba(16, 44, 87, 0.7) 0%, rgba(4, 13, 26, 0.95) 100%);
+            border: 1px solid rgba(14, 165, 233, 0.35);
+        }
+        .tech-grid-bg {
+            background-size: 40px 40px;
+            background-image: 
+                linear-gradient(to right, rgba(148, 163, 184, 0.05) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(148, 163, 184, 0.05) 1px, transparent 1px);
+        }
+        .hero-radial {
+            background: radial-gradient(circle at 75% 25%, rgba(14, 165, 233, 0.18) 0%, rgba(16, 44, 87, 0.4) 40%, rgba(4, 13, 26, 0.98) 85%);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased selection:bg-percet-electric selection:text-white">
+
+    <!-- =====================================================================
+         SECCIÓN 01: TOP BAR DE ALERTA CLIMÁTICA + NAVBAR CORPORATIVO FIJO
+         ===================================================================== -->
+    <div class="bg-gradient-to-r from-percet-navy via-percet-cobalt to-percet-navy border-b border-slate-700/60 text-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 flex flex-col md:flex-row items-center justify-between gap-3">
+            <!-- Alerta Fenómeno del Niño -->
+            <div class="flex items-center gap-2.5 text-slate-200 font-medium text-center md:text-left">
+                <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded bg-percet-amber/20 border border-percet-amber/50 text-percet-amber font-semibold uppercase tracking-wider text-[11px] whitespace-nowrap shrink-0">
+                    <i data-lucide="cloud-rain-wind" class="w-3.5 h-3.5 shrink-0"></i> CONTINGENCIA EL NIÑO
+                </span>
+                <span>Ejecución prioritaria de <strong>Techos Metálicos, Coberturas Industriales y Drenaje Pluvial</strong> a nivel nacional.</span>
+            </div>
+            <!-- Credencial RUC Verificada -->
+            <div class="flex items-center gap-4 shrink-0">
+                <div class="inline-flex items-center gap-1.5 font-mono text-[11px] bg-percet-abyss/80 px-2.5 py-1 rounded border border-slate-700 text-slate-300 whitespace-nowrap">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0"></span>
+                    <span>RUC: 20614633345</span>
+                    <span class="text-emerald-400 font-semibold">(Activo y Habido)</span>
+                </div>
+                <a href="mailto:oficina.tecnica.puh@outlook.com" class="hidden lg:inline-flex items-center gap-1 text-slate-300 hover:text-white transition-colors whitespace-nowrap">
+                    <i data-lucide="mail" class="w-3.5 h-3.5 text-percet-electric shrink-0"></i>
+                    oficina.tecnica.puh@outlook.com
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Barra de Navegación Principal -->
+    <header id="navbar" class="sticky top-0 z-50 glass-header border-b border-slate-800/80 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20 gap-4">
+                
+                <!-- LOGOTIPO OFICIAL PERCET (SVG Metálico de Alta Precisión + Soporte para archivo local logo-percet.jpg) -->
+                <a href="#inicio" class="flex items-center gap-3.5 group focus:outline-none shrink-0">
+                    <div class="relative w-13 h-13 rounded-xl overflow-hidden p-0.5 bg-gradient-to-br from-sky-400 via-blue-700 to-percet-abyss shadow-lg shadow-sky-500/20 flex items-center justify-center shrink-0">
+                        <!-- Si subes tu imagen como 'logo-percet.jpg' a la carpeta de Netlify, se mostrará automáticamente -->
+                        <img src="logo-percet.jpg" alt="Logo PERCET" class="w-12 h-12 object-cover rounded-[10px] absolute inset-0.5 z-10" onerror="this.style.display='none'">
+                        
+                        <!-- Recreación Vectorial SVG Metálica del Isotipo de la Ballena PERCET -->
+                        <svg class="w-12 h-12 rounded-[10px]" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Isotipo PERCET Universal Holdings">
+                            <defs>
+                                <radialGradient id="percetBlueBg" cx="50%" cy="30%" r="75%">
+                                    <stop offset="0%" stop-color="#0284C7"/>
+                                    <stop offset="45%" stop-color="#0A2657"/>
+                                    <stop offset="100%" stop-color="#030B1B"/>
+                                </radialGradient>
+                                <linearGradient id="percetSilver" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#FFFFFF"/>
+                                    <stop offset="45%" stop-color="#E2E8F0"/>
+                                    <stop offset="75%" stop-color="#94A3B8"/>
+                                    <stop offset="100%" stop-color="#CBD5E1"/>
+                                </linearGradient>
+                                <linearGradient id="percetChromeShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#F8FAFC"/>
+                                    <stop offset="100%" stop-color="#64748B"/>
+                                </linearGradient>
+                            </defs>
+                            <!-- Fondo Azul Cobalto con Ondas de Luz -->
+                            <rect width="120" height="120" rx="18" fill="url(#percetBlueBg)"/>
+                            <path d="M0 28 Q45 5 120 35 L120 0 L0 0 Z" fill="#38BDF8" fill-opacity="0.12"/>
+                            <path d="M0 95 Q65 75 120 105 L120 120 L0 120 Z" fill="#0EA5E9" fill-opacity="0.15"/>
+                            
+                            <!-- Anillos Concéntricos Tecnológicos Superiores e Inferiores -->
+                            <path d="M22 50 A40 40 0 0 1 82 24" stroke="url(#percetSilver)" stroke-width="4.5" stroke-linecap="round"/>
+                            <path d="M29 52 A32 32 0 0 1 73 30" stroke="url(#percetSilver)" stroke-width="3.5" stroke-linecap="round"/>
+                            <path d="M37 54 A24 24 0 0 1 63 37" stroke="url(#percetSilver)" stroke-width="3" stroke-linecap="round"/>
+                            
+                            <path d="M25 75 A40 40 0 0 0 98 52" stroke="url(#percetSilver)" stroke-width="4.5" stroke-linecap="round"/>
+                            <path d="M40 87 A31 31 0 0 0 91 58" stroke="url(#percetSilver)" stroke-width="3.5" stroke-linecap="round"/>
+
+                            <!-- Cuerpo Principal de la Ballena Metálica -->
+                            <path d="M18 61 C24 49, 46 46, 62 52 C75 57, 86 54, 88 41 C79 39, 71 35, 67 31 C76 29, 85 31, 91 35 C95 27, 100 20, 107 17 C107 26, 103 35, 95 41 C98 56, 89 72, 74 75 C69 71, 61 68, 56 71 C51 74, 57 83, 68 89 C52 89, 34 81, 20 65 Z" fill="url(#percetSilver)" stroke="#0A1E3C" stroke-width="1"/>
+                            
+                            <!-- Ojo de la Ballena -->
+                            <path d="M46 56 Q51 53 55 57" stroke="#040D1A" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+                            <!-- Pliegues Ventrales Metálicos (Acero Hidrodinámico) -->
+                            <path d="M21 65 C30 76, 44 83, 59 85" stroke="#040D1A" stroke-width="2.2" stroke-linecap="round"/>
+                            <path d="M25 63 C34 73, 45 79, 55 81" stroke="#040D1A" stroke-width="2.2" stroke-linecap="round"/>
+                            <path d="M30 62 C38 70, 46 74, 53 76" stroke="#040D1A" stroke-width="2.2" stroke-linecap="round"/>
+                            
+                            <!-- Aleta Pectoral en Primer Plano -->
+                            <path d="M56 70 C62 68, 71 76, 79 88 C67 89, 58 82, 55 74 Z" fill="url(#percetChromeShadow)"/>
+
+                            <!-- Tipografía Integrada Inferior -->
+                            <text x="60" y="111" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-weight="900" font-size="15" letter-spacing="3.5">PERCET</text>
+                        </svg>
+                    </div>
+                    <div class="flex flex-col whitespace-nowrap">
+                        <span class="text-xl font-black tracking-widest metallic-text leading-none">PERCET</span>
+                        <span class="text-[10px] font-semibold tracking-[0.18em] text-percet-electric uppercase mt-1">Universal Holdings S.A.C.</span>
+                    </div>
+                </a>
+
+                <!-- Enlaces de Navegación Desktop + Botón Separado con Divisor Vertical -->
+                <div class="hidden lg:flex items-center justify-end flex-1">
+                    <nav class="flex items-center gap-4 xl:gap-6 text-xs xl:text-sm font-medium text-slate-300">
+                        <a href="#estructuras-drywall" class="hover:text-white transition-colors flex items-center gap-1.5 text-percet-amber font-semibold whitespace-nowrap">
+                            <i data-lucide="flame" class="w-4 h-4 shrink-0"></i>
+                            <span>Techos & Drywall</span>
+                        </a>
+                        <a href="#servicios" class="hover:text-white transition-colors whitespace-nowrap">Especialidades</a>
+                        <a href="#georisk" class="hover:text-white transition-colors flex items-center gap-1 whitespace-nowrap">
+                            <i data-lucide="satellite" class="w-3.5 h-3.5 text-percet-electric shrink-0"></i>
+                            <span>GeoRisk™ 360</span>
+                        </a>
+                        <a href="#metodologia" class="hover:text-white transition-colors whitespace-nowrap">Metodología y ADN</a>
+                        <a href="#casos" class="hover:text-white transition-colors whitespace-nowrap">Casos de Éxito</a>
+                        <a href="#alianzas" class="hover:text-white transition-colors whitespace-nowrap">Subcontratistas</a>
+                    </nav>
+
+                    <!-- Separación Amplia + Divisor Vertical antes del Botón Cotizar con Gerencia -->
+                    <div class="ml-6 xl:ml-8 pl-6 xl:pl-8 border-l border-slate-700/80 flex items-center shrink-0">
+                        <a href="#contacto" class="bg-gradient-to-r from-percet-amber to-percet-amberDark hover:from-orange-500 hover:to-orange-700 text-white px-5 py-2.5 rounded-lg text-xs xl:text-sm font-bold transition-all shadow-lg shadow-orange-600/25 flex items-center gap-2 border border-orange-400/30 whitespace-nowrap">
+                            <i data-lucide="file-spreadsheet" class="w-4 h-4 shrink-0"></i>
+                            <span>Cotizar con Gerencia</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Botón Menú Móvil -->
+                <div class="lg:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-slate-300 hover:text-white p-2 rounded-lg border border-slate-800 focus:outline-none" aria-label="Abrir menú">
+                        <i data-lucide="menu" class="w-6 h-6"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menú Desplegable Móvil -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-percet-abyss/98 border-b border-slate-800 px-4 pt-3 pb-6 space-y-2">
+            <a href="#estructuras-drywall" class="block px-3 py-2.5 rounded-lg text-sm font-semibold text-percet-amber bg-percet-navy/60">Prioridad: Techos Metálicos & Drywall</a>
+            <a href="#servicios" class="block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-300 hover:bg-percet-navy/40">Catálogo de Ingeniería (6 Líneas)</a>
+            <a href="#georisk" class="block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-300 hover:bg-percet-navy/40">Ecosistema PERCET GeoRisk™ 360</a>
+            <a href="#metodologia" class="block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-300 hover:bg-percet-navy/40">Identidad, Metodología y Valores</a>
+            <a href="#casos" class="block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-300 hover:bg-percet-navy/40">Casos de Éxito Verificados</a>
+            <a href="#alianzas" class="block px-3 py-2.5 rounded-lg text-sm font-medium text-slate-300 hover:bg-percet-navy/40">Homologación de Subcontratistas</a>
+            <div class="pt-3 border-t border-slate-800">
+                <a href="https://wa.me/51981328639?text=Hola%20Ing.%20Angie%20-%20CEO%20de%20PERCET%20UNIVERSAL%20HOLDINGS%20S.A.C.,%20me%20comunico%20desde%20su%20p%C3%A1gina%20web%20para%20solicitar%20una%20cotizaci%C3%B3n." target="_blank" rel="noopener noreferrer" class="w-full py-3 bg-percet-amber text-white rounded-lg font-bold text-sm flex items-center justify-center gap-2">
+                    <i data-lucide="phone-outgoing" class="w-4 h-4"></i>
+                    WhatsApp Directo CEO (+51 981 328 639)
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- =====================================================================
+         SECCIÓN 02: HERO SECTION + MATRIZ DE KPIS DE INGENIERÍA
+         ===================================================================== -->
+    <section id="inicio" class="relative hero-radial tech-grid-bg pt-14 pb-20 lg:pt-24 lg:pb-28 border-b border-slate-800/80 overflow-hidden">
+        <!-- Efecto de luz ambiental superior -->
+        <div class="absolute -top-24 -right-24 w-96 h-96 bg-sky-500/15 rounded-full blur-3xl pointer-events-none"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Columna Principal de Propuesta de Valor -->
+                <div class="lg:col-span-7">
+                    <div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-percet-cobalt/90 border border-sky-500/30 text-sky-300 text-xs font-semibold tracking-wider uppercase mb-6 shadow-sm">
+                        <i data-lucide="shield-check" class="w-4 h-4 text-percet-electric"></i>
+                        Ingeniería de Precisión • Ejecución B2B • ConTech
+                    </div>
+                    
+                    <h1 class="text-3xl sm:text-5xl lg:text-[54px] font-black text-white leading-[1.12] tracking-tight mb-6">
+                        Infraestructura Resiliente, <span class="metallic-text">Estructuras Metálicas</span> y Adecuación Corporativa.
+                    </h1>
+                    
+                    <p class="text-base sm:text-lg text-slate-300 leading-relaxed mb-8 max-w-2xl">
+                        En <strong class="text-white">PERCET UNIVERSAL HOLDINGS S.A.C.</strong> integramos capacidad constructiva en campo con modelado <strong class="text-sky-300">BIM/VDC</strong> e inteligencia climática propia. Protegemos activos industriales frente al Fenómeno del Niño y ejecutamos remodelaciones en sistema <strong class="text-sky-300">Drywall</strong> bajo estricto estándar normativo nacional.
+                    </p>
+
+                    <!-- Botones de Acción Ejecutiva -->
+                    <div class="flex flex-col sm:flex-row gap-4 mb-10">
+                        <a href="#contacto" class="inline-flex justify-center items-center gap-2.5 bg-percet-amber hover:bg-percet-amberDark text-white px-7 py-4 rounded-xl font-bold text-base transition-all shadow-xl shadow-orange-600/25 border border-orange-400/40">
+                            <span>Solicitar Cotización</span>
+                            <i data-lucide="arrow-up-right" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#estructuras-drywall" class="inline-flex justify-center items-center gap-2.5 bg-percet-navy/90 hover:bg-percet-cobalt text-slate-100 border border-slate-600/80 px-7 py-4 rounded-xl font-semibold text-base transition-all">
+                            <i data-lucide="layers" class="w-5 h-5 text-percet-electric"></i>
+                            <span>Ver Techos Metálicos y Drywall</span>
+                        </a>
+                    </div>
+
+                    <!-- Sello de Respaldo Institucional -->
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-6 border-t border-slate-800/90 text-xs text-slate-400">
+                        <div class="flex items-center gap-2">
+                            <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400 flex-shrink-0"></i>
+                            <span>Normativa RNE / CNE Vigente</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400 flex-shrink-0"></i>
+                            <span>Cuadrillas Homologadas SCTR</span>
+                        </div>
+                        <div class="flex items-center gap-2 col-span-2 sm:col-span-1">
+                            <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400 flex-shrink-0"></i>
+                            <span>Entrega de Planos As-Built</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Columna Derecha: Panel Ejecutivo de Indicadores Técnicos (KPIs) -->
+                <div class="lg:col-span-5">
+                    <div class="bg-percet-navy/80 border border-slate-700/80 rounded-2xl p-6 sm:p-8 shadow-2xl relative overflow-hidden">
+                        <div class="flex items-center justify-between pb-5 mb-6 border-b border-slate-700/80">
+                            <div>
+                                <span class="text-[11px] font-mono uppercase tracking-widest text-percet-electric block">Ficha Corporativa Verificada</span>
+                                <h2 class="text-lg font-bold text-white mt-0.5">PERCET UNIVERSAL HOLDINGS S.A.C.</h2>
+                            </div>
+                            <span class="px-3 py-1 rounded-md bg-emerald-500/15 border border-emerald-500/40 text-emerald-300 font-mono text-xs font-semibold">
+                                RUC 20614633345
+                            </span>
+                        </div>
+
+                        <!-- 4 KPIs de Garantía Operativa -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div class="p-4 rounded-xl bg-percet-abyss/80 border border-slate-800">
+                                <div class="w-9 h-9 rounded-lg bg-percet-amber/15 border border-percet-amber/30 flex items-center justify-center text-percet-amber mb-3">
+                                    <i data-lucide="umbrella" class="w-5 h-5"></i>
+                                </div>
+                                <div class="text-sm font-bold text-white">Blindaje Pluvial</div>
+                                <p class="text-xs text-slate-400 mt-1 leading-relaxed">Techos metálicos parabólicos, dos aguas y drenaje bajo NTE E.090.</p>
+                            </div>
+
+                            <div class="p-4 rounded-xl bg-percet-abyss/80 border border-slate-800">
+                                <div class="w-9 h-9 rounded-lg bg-sky-500/15 border border-sky-500/30 flex items-center justify-center text-percet-electric mb-3">
+                                    <i data-lucide="building-2" class="w-5 h-5"></i>
+                                </div>
+                                <div class="text-sm font-bold text-white">Drywall Corporativo</div>
+                                <p class="text-xs text-slate-400 mt-1 leading-relaxed">Tabiquería RF/RH, acústica y adecuación ITSE / INDECI (RNE A.130).</p>
+                            </div>
+
+                            <div class="p-4 rounded-xl bg-percet-abyss/80 border border-slate-800">
+                                <div class="w-9 h-9 rounded-lg bg-sky-500/15 border border-sky-500/30 flex items-center justify-center text-percet-electric mb-3">
+                                    <i data-lucide="cpu" class="w-5 h-5"></i>
+                                </div>
+                                <div class="text-sm font-bold text-white">Ingeniería BIM / VDC</div>
+                                <p class="text-xs text-slate-400 mt-1 leading-relaxed">Compatibilización previa, cero interferencias y control de metrados.</p>
+                            </div>
+
+                            <div class="p-4 rounded-xl bg-percet-abyss/80 border border-slate-800">
+                                <div class="w-9 h-9 rounded-lg bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-400 mb-3">
+                                    <i data-lucide="hard-hat" class="w-5 h-5"></i>
+                                </div>
+                                <div class="text-sm font-bold text-white">Rigor SSOMA 100%</div>
+                                <p class="text-xs text-slate-400 mt-1 leading-relaxed">Cumplimiento Ley 29783, SCTR vigente, IPERC y supervisión de altura.</p>
+                            </div>
+                        </div>
+
+                        <!-- Contacto Directo CEO dentro del Panel -->
+                        <div class="mt-6 pt-5 border-t border-slate-700/80 flex items-center justify-between gap-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-percet-cobalt border border-sky-400/40 flex items-center justify-center text-white font-bold text-sm">
+                                    CEO
+                                </div>
+                                <div>
+                                    <div class="text-xs font-semibold text-white">Atención Directa de Gerencia</div>
+                                    <div class="text-xs text-slate-400 font-mono">+51 981 328 639</div>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/51981328639?text=Hola%20Ing.%20Angie%20-%20CEO%20de%20PERCET%20UNIVERSAL%20HOLDINGS%20S.A.C.,%20me%20comunico%20desde%20su%20p%C3%A1gina%20web%20para%20solicitar%20una%20cotizaci%C3%B3n." target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition-colors flex items-center gap-1.5">
+                                <i data-lucide="message-square" class="w-3.5 h-3.5"></i>
+                                Contactar CEO
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================================================================
+         SECCIÓN 03: LÍNEAS PRIORITARIAS DE ALTA DEMANDA (TECHOS METÁLICOS & DRYWALL)
+         ===================================================================== -->
+    <section id="estructuras-drywall" class="py-20 lg:py-24 bg-percet-abyss relative border-b border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Encabezado de Sección -->
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
+                <div>
+                    <div class="inline-flex items-center gap-2 text-percet-amber font-mono text-xs uppercase tracking-widest mb-2">
+                        <i data-lucide="zap" class="w-4 h-4"></i> Divisiones de Respuesta Inmediata
+                    </div>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+                        Protección Climática Industrial y Adecuación en Seco
+                    </h2>
+                </div>
+                <p class="text-slate-400 text-sm sm:text-base max-w-xl">
+                    Soluciones de ingeniería enfocadas en continuidad operativa: protegemos almacenes y plantas ante lluvias extremas y modernizamos espacios corporativos en tiempo récord.
+                </p>
+            </div>
+
+            <!-- Dos Bloques Ejecutivos Lado a Lado -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                
+                <!-- DIVISIÓN A: TECHOS METÁLICOS Y CONTINGENCIA FENÓMENO DEL NIÑO -->
+                <div class="priority-card-amber rounded-2xl p-7 sm:p-9 flex flex-col justify-between relative overflow-hidden">
+                    <div>
+                        <div class="flex flex-wrap items-center justify-between gap-2 mb-6">
+                            <span class="px-3 py-1 rounded-full bg-percet-amber/20 border border-percet-amber/50 text-percet-amber font-mono text-xs font-bold uppercase">
+                                Prioridad Fenómeno del Niño
+                            </span>
+                            <span class="font-mono text-xs text-slate-400 bg-percet-abyss/90 px-3 py-1 rounded border border-slate-800">
+                                NTE E.090 • NTE E.020
+                            </span>
+                        </div>
+
+                        <div class="flex items-start gap-4 mb-5">
+                            <div class="w-12 h-12 rounded-xl bg-percet-amber/15 border border-percet-amber/40 flex items-center justify-center text-percet-amber flex-shrink-0">
+                                <i data-lucide="warehouse" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-white leading-snug">
+                                    Techos Metálicos, Coberturas y Drenaje Pluvial Industrial
+                                </h3>
+                                <p class="text-slate-300 text-sm mt-1">
+                                    Diseño estructural, fabricación en taller y montaje seguro en planta u obra.
+                                </p>
+                            </div>
+                        </div>
+
+                        <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                            Evite paralizaciones operativas, filtraciones y daños en inventarios o maquinaria crítica. Diseñamos y ejecutamos estructuras de acero de gran luz con pendientes optimizadas para evacuación hídrica acelerada.
+                        </p>
+
+                        <!-- Lista Técnica de Entregables -->
+                        <div class="space-y-3 mb-8 bg-percet-abyss/60 p-5 rounded-xl border border-slate-800/90 text-sm">
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="shield" class="w-4 h-4 text-percet-amber mt-1 flex-shrink-0"></i>
+                                <div><strong class="text-white">Naves y Techos de Gran Luz:</strong> Estructuras parabólicas, techos a dos aguas, tijerales reticulados y <em>carports</em> corporativos.</div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="layers" class="w-4 h-4 text-percet-amber mt-1 flex-shrink-0"></i>
+                                <div><strong class="text-white">Coberturas Termoacústicas:</strong> Instalación de planchas de Aluzinc (TR4 / TR5), paneles aislantes tipo sándwich y policarbonato alveolar.</div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="droplets" class="w-4 h-4 text-percet-amber mt-1 flex-shrink-0"></i>
+                                <div><strong class="text-white">Sistemas de Evacuación Pluvial:</strong> Dimensionamiento e instalación de canaletas industriales, bajantes, sellado elastomérico y mantenimiento preventivo/correctivo.</div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="satellite" class="w-4 h-4 text-percet-electric mt-1 flex-shrink-0"></i>
+                                <div><strong class="text-sky-300">Montaje con Ventana Climática:</strong> Programación de izaje, torque y soldadura asistida por <em>PERCET GeoRisk™ 360</em> (umbral &lt; 2.0 mm/día).</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/51981328639?text=Hola%20Ing.%20Angie%20(CEO%20-%20PERCET),%20requiero%20cotizar%20un%20proyecto%20de%20TECHOS%20MET%C3%81LICOS%20/%20COBERTURAS%20Y%20DRENAJE%20PLUVIAL%20(Contingencia%20Fen%C3%B3meno%20del%20Ni%C3%B1o)." target="_blank" rel="noopener noreferrer" class="w-full py-3.5 px-5 rounded-xl bg-percet-amber hover:bg-percet-amberDark text-white font-bold text-sm flex items-center justify-center gap-2 transition-all shadow-lg shadow-orange-600/20">
+                        <i data-lucide="calculator" class="w-4 h-4"></i>
+                        Cotizar Techo Metálico o Cobertura con Gerencia
+                    </a>
+                </div>
+
+                <!-- DIVISIÓN B: REMODELACIÓN CORPORATIVA Y SISTEMAS DRYWALL -->
+                <div class="priority-card-cyan rounded-2xl p-7 sm:p-9 flex flex-col justify-between relative overflow-hidden">
+                    <div>
+                        <div class="flex flex-wrap items-center justify-between gap-2 mb-6">
+                            <span class="px-3 py-1 rounded-full bg-sky-500/20 border border-sky-400/40 text-sky-300 font-mono text-xs font-bold uppercase">
+                                Ejecución Rápida y Limpia
+                            </span>
+                            <span class="font-mono text-xs text-slate-400 bg-percet-abyss/90 px-3 py-1 rounded border border-slate-800">
+                                RNE A.130 • Ley 29090 • INDECI
+                            </span>
+                        </div>
+
+                        <div class="flex items-start gap-4 mb-5">
+                            <div class="w-12 h-12 rounded-xl bg-sky-500/15 border border-sky-400/40 flex items-center justify-center text-percet-electric flex-shrink-0">
+                                <i data-lucide="layout-Grid" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-white leading-snug">
+                                    Obras de Remodelación Corporativa y Sistema Drywall
+                                </h3>
+                                <p class="text-slate-300 text-sm mt-1">
+                                    Adecuación integral de oficinas, locales comerciales (retail), clínicas y plantas.
+                                </p>
+                            </div>
+                        </div>
+
+                        <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                            Optimizamos y redistribuimos áreas de trabajo mediante sistemas constructivos en seco de alta resistencia, garantizando aislamiento acústico, protección pasiva contra incendios y aprobación en inspecciones técnicas ITSE.
+                        </p>
+
+                        <!-- Lista Técnica de Entregables -->
+                        <div class="space-y-3 mb-8 bg-percet-abyss/60 p-5 rounded-xl border border-slate-800/90 text-sm">
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="flame" class="w-4 h-4 text-percet-electric mt-1 flex-shrink-0"></i>
+                                <div><strong class="text-white">Tabiquería Técnica Especializada:</strong> Muros divisorios con placas Estándar (ST), Resistentes a la Humedad (RH) y Cortafuego (RF) con perfilería de acero galvanizado normada.</div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="volume-x" class="w-4 h-4 text-percet-electric mt-1 flex-shrink-0"></i>
+                                <div><strong class="text-white">Aislamiento Termoacústico y Cielos Rasos:</strong> Relleno interior con lana de fibra de vidrio/roca y falsos cielos rasos registrables o de junta invisible.</div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="plug-zap" class="w-4 h-4 text-percet-electric mt-1 flex-shrink-0"></i>
+                                <div><strong class="text-white">Integración Electromecánica y Acabados:</strong> Empotramiento de redes eléctricas (CNE), luminarias LED corporativas, data, pintura epóxica/látex y pisos.</div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="file-check-2" class="w-4 h-4 text-emerald-400 mt-1 flex-shrink-0"></i>
+                                <div><strong class="text-emerald-300">Cumplimiento Municipal e INDECI:</strong> Ejecución alineada a la Ley 29090 y requisitos de seguridad RNE A.130 con entrega de planos <em>As-Built</em>.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/51981328639?text=Hola%20Ing.%20Angie%20(CEO%20-%20PERCET),%20requiero%20cotizar%20un%20proyecto%20de%20REMODELACI%C3%93N%20CORPORATIVA%20Y%20SISTEMA%20DRYWALL." target="_blank" rel="noopener noreferrer" class="w-full py-3.5 px-5 rounded-xl bg-percet-electric hover:bg-sky-400 text-percet-abyss font-extrabold text-sm flex items-center justify-center gap-2 transition-all shadow-lg shadow-sky-500/20">
+                        <i data-lucide="ruler" class="w-4 h-4"></i>
+                        Cotizar Remodelación y Drywall con Gerencia
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================================================================
+         SECCIÓN 04: CATÁLOGO INTEGRAL DE INGENIERÍA (MATRIZ SIMÉTRICA 3X2)
+         ===================================================================== -->
+    <section id="servicios" class="py-20 lg:py-24 bg-percet-navy/40 border-b border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-percet-electric font-mono text-xs uppercase tracking-widest">Capacidad Multidisciplinaria B2B</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2 mb-4 tracking-tight">
+                    Nuestras 6 Líneas de Ingeniería y Ejecución
+                </h2>
+                <p class="text-slate-400 text-base">
+                    Cada proyecto es respaldado por memoria de cálculo, supervisión de oficina técnica y cumplimiento riguroso del Reglamento Nacional de Edificaciones (RNE).
+                </p>
+            </div>
+
+            <!-- Grilla Simétrica 3x2 -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Especialidad 01 -->
+                <div class="cobalt-card rounded-2xl p-7 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <div class="w-11 h-11 rounded-xl bg-percet-abyss border border-slate-700 flex items-center justify-center text-percet-amber">
+                                <i data-lucide="anvil" class="w-5 h-5"></i>
+                            </div>
+                            <span class="font-mono text-[11px] text-slate-300 bg-percet-abyss/80 px-2.5 py-1 rounded border border-slate-700">NTE E.090 / E.020</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2.5">01. Estructuras Metálicas y Coberturas</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                            Fabricación y montaje de naves industriales, techos parabólicos, tijerales, mezzanines estructurales, escaleras de emergencia y coberturas de Aluzinc con control de torque y soldadura.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs text-percet-electric font-semibold">
+                        <span>Protección Pluvial y Estructural</span>
+                        <i data-lucide="check" class="w-4 h-4"></i>
+                    </div>
+                </div>
+
+                <!-- Especialidad 02 -->
+                <div class="cobalt-card rounded-2xl p-7 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <div class="w-11 h-11 rounded-xl bg-percet-abyss border border-slate-700 flex items-center justify-center text-percet-electric">
+                                <i data-lucide="panels-top-left" class="w-5 h-5"></i>
+                            </div>
+                            <span class="font-mono text-[11px] text-slate-300 bg-percet-abyss/80 px-2.5 py-1 rounded border border-slate-700">RNE A.130 / Ley 29090</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2.5">02. Drywall y Adecuación Corporativa</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                            Remodelación integral de oficinas, retail y plantas. Tabiquería Drywall (RF/RH/ST), aislamiento acústico, cielos rasos modulares y adecuación normativa para licencias ITSE/INDECI.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs text-percet-electric font-semibold">
+                        <span>Entrega Limpia y Acelerada</span>
+                        <i data-lucide="check" class="w-4 h-4"></i>
+                    </div>
+                </div>
+
+                <!-- Especialidad 03 -->
+                <div class="cobalt-card rounded-2xl p-7 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <div class="w-11 h-11 rounded-xl bg-percet-abyss border border-slate-700 flex items-center justify-center text-percet-silver">
+                                <i data-lucide="Drafting-compass" class="w-5 h-5"></i>
+                            </div>
+                            <span class="font-mono text-[11px] text-slate-300 bg-percet-abyss/80 px-2.5 py-1 rounded border border-slate-700">NTE E.030 / E.060</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2.5">03. Obras Civiles y Evaluación Estructural</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                            Cimentaciones especiales, losas industriales de concreto armado, muros de contención, reforzamiento estructural sismorresistente y expedientes técnicos de infraestructura.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs text-percet-electric font-semibold">
+                        <span>Diseño Sismorresistente</span>
+                        <i data-lucide="check" class="w-4 h-4"></i>
+                    </div>
+                </div>
+
+                <!-- Especialidad 04 -->
+                <div class="cobalt-card rounded-2xl p-7 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <div class="w-11 h-11 rounded-xl bg-percet-abyss border border-slate-700 flex items-center justify-center text-percet-amber">
+                                <i data-lucide="cable" class="w-5 h-5"></i>
+                            </div>
+                            <span class="font-mono text-[11px] text-slate-300 bg-percet-abyss/80 px-2.5 py-1 rounded border border-slate-700">CNE / OS.050 / OS.070</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2.5">04. Ingeniería Eléctrica y Redes Sanitarias</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                            Tableros eléctricos industriales, pozos a tierra, iluminación técnica, auditorías de eficiencia energética y tendido de redes de agua, desagüe y tuberías HDPE con pruebas hidráulicas.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs text-percet-electric font-semibold">
+                        <span>Protocolos de Megado y Presión</span>
+                        <i data-lucide="check" class="w-4 h-4"></i>
+                    </div>
+                </div>
+
+                <!-- Especialidad 05 -->
+                <div class="cobalt-card rounded-2xl p-7 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <div class="w-11 h-11 rounded-xl bg-percet-abyss border border-slate-700 flex items-center justify-center text-percet-electric">
+                                <i data-lucide="box" class="w-5 h-5"></i>
+                            </div>
+                            <span class="font-mono text-[11px] text-slate-300 bg-percet-abyss/80 px-2.5 py-1 rounded border border-slate-700">BIM / VDC / Lean</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2.5">05. Consultoría BIM, VDC y Planos As-Built</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                            Modelado digital 3D, detección anticipada de interferencias (<em>Clash Detection</em>), programación bajo filosofía <em>Last Planner System</em> y levantamiento de planos <em>As-Built</em>.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs text-percet-electric font-semibold">
+                        <span>Cero Retrabajos en Obra</span>
+                        <i data-lucide="check" class="w-4 h-4"></i>
+                    </div>
+                </div>
+
+                <!-- Especialidad 06 -->
+                <div class="cobalt-card rounded-2xl p-7 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-5">
+                            <div class="w-11 h-11 rounded-xl bg-percet-abyss border border-slate-700 flex items-center justify-center text-emerald-400">
+                                <i data-lucide="shield-alert" class="w-5 h-5"></i>
+                            </div>
+                            <span class="font-mono text-[11px] text-slate-300 bg-percet-abyss/80 px-2.5 py-1 rounded border border-slate-700">Ley 29783 / G.050</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2.5">06. Gestión SSOMA y Alto Riesgo</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                            Implementación de sistemas de Seguridad, Salud Ocupacional y Medio Ambiente. Supervisión estricta de trabajos en altura (techos metálicos), trabajos en caliente e izajes.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs text-emerald-400 font-semibold">
+                        <span>Estándar Cero Accidentes</span>
+                        <i data-lucide="check" class="w-4 h-4"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================================================================
+         SECCIÓN 05: DIFERENCIADOR CONTECH — ECOSISTEMA PERCET GEORISK™ 360
+         ===================================================================== -->
+    <section id="georisk" class="py-20 lg:py-24 bg-percet-abyss relative border-b border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-br from-percet-cobalt/80 via-percet-navy to-percet-abyss rounded-3xl p-8 sm:p-12 border border-sky-500/30 shadow-2xl">
+                
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                    
+                    <!-- Explicación del Software Propio -->
+                    <div class="lg:col-span-6">
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/15 border border-sky-400/40 text-sky-300 font-mono text-xs font-semibold mb-4">
+                            <i data-lucide="radar" class="w-4 h-4"></i> Ventaja Competitiva ConTech Propia
+                        </div>
+                        <h2 class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight mb-4">
+                            PERCET GeoRisk™ 360: Inteligencia Climática Aplicada a Obra
+                        </h2>
+                        <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6">
+                            A diferencia de las contratistas tradicionales, en <strong>PERCET UNIVERSAL HOLDINGS S.A.C.</strong> respaldamos la planificación de nuestros proyectos con nuestra plataforma SaaS de monitoreo hidro-meteorológico y geotécnico. Anticipamos anomalías pluviales para proteger partidas críticas de acero, concreto y acabados.
+                        </p>
+                        
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <a href="https://percet-georisk-360.streamlit.app" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-percet-electric hover:bg-sky-400 text-percet-abyss font-extrabold px-6 py-3.5 rounded-xl text-sm transition-all shadow-lg shadow-sky-500/20">
+                                <i data-lucide="external-link" class="w-4 h-4"></i>
+                                Abrir Plataforma PERCET GeoRisk™ 360
+                            </a>
+                            <a href="https://wa.me/51981328639?text=Hola%20Ing.%20Angie%20(CEO%20-%20PERCET),%20deseo%20informaci%C3%B3n%20sobre%20la%20consultor%C3%ADa%20con%20PERCET%20GeoRisk%20360%20para%20nuestro%20proyecto." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-percet-abyss/80 hover:bg-percet-abyss text-slate-200 border border-slate-700 px-6 py-3.5 rounded-xl text-sm font-semibold transition-all">
+                                Solicitar Demo Corporativa
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Matriz de 4 Umbrales Predictivos en Obra -->
+                    <div class="lg:col-span-6">
+                        <div class="bg-percet-abyss/90 rounded-2xl p-6 border border-slate-800">
+                            <div class="flex items-center justify-between mb-4 pb-3 border-b border-slate-800">
+                                <span class="text-xs font-mono uppercase tracking-wider text-slate-400">Umbrales Operativos de Control</span>
+                                <span class="text-xs font-mono text-percet-electric">Protocolo Preventivo PUH</span>
+                            </div>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div class="p-4 rounded-xl bg-percet-navy/60 border border-slate-800">
+                                    <div class="flex items-center justify-between text-xs font-mono text-percet-amber mb-1">
+                                        <span>PARTIDA CRÍTICA 01</span>
+                                        <span>&gt; 2.0 mm/día</span>
+                                    </div>
+                                    <div class="font-bold text-white text-sm">Concreto y Acero (E.090)</div>
+                                    <p class="text-xs text-slate-400 mt-1">Control de vaciados, soldadura estructural en techos e izaje seguro.</p>
+                                </div>
+
+                                <div class="p-4 rounded-xl bg-percet-navy/60 border border-slate-800">
+                                    <div class="flex items-center justify-between text-xs font-mono text-sky-400 mb-1">
+                                        <span>PARTIDA CRÍTICA 02</span>
+                                        <span>&gt; 1.0 mm/día</span>
+                                    </div>
+                                    <div class="font-bold text-white text-sm">Arquitectura y Drywall</div>
+                                    <p class="text-xs text-slate-400 mt-1">Protección de placas de yeso, sellados exteriores y recubrimientos.</p>
+                                </div>
+
+                                <div class="p-4 rounded-xl bg-percet-navy/60 border border-slate-800">
+                                    <div class="flex items-center justify-between text-xs font-mono text-emerald-400 mb-1">
+                                        <span>PARTIDA CRÍTICA 03</span>
+                                        <span>&gt; 3.0 mm/día</span>
+                                    </div>
+                                    <div class="font-bold text-white text-sm">Geotecnia y Movimiento</div>
+                                    <p class="text-xs text-slate-400 mt-1">Estabilidad de taludes, excavación de zanjas y compactación de suelos.</p>
+                                </div>
+
+                                <div class="p-4 rounded-xl bg-percet-navy/60 border border-slate-800">
+                                    <div class="flex items-center justify-between text-xs font-mono text-purple-400 mb-1">
+                                        <span>PARTIDA CRÍTICA 04</span>
+                                        <span>&gt; 5.0 mm/día</span>
+                                    </div>
+                                    <div class="font-bold text-white text-sm">Redes e Instalaciones</div>
+                                    <p class="text-xs text-slate-400 mt-1">Termofusión HDPE, pruebas hidráulicas y canalizaciones exteriores.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================================================================
+         SECCIÓN 06: IDENTIDAD CORPORATIVA, METODOLOGÍA EN 4 FASES Y VALORES
+         ===================================================================== -->
+    <section id="metodologia" class="py-20 lg:py-24 bg-percet-navy/30 border-b border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
+            
+            <!-- Sub-bloque A: Sobre Nosotros + Misión, Visión y Propósito (Iconografía Vectorial Limpia) -->
+            <div>
+                <div class="max-w-3xl mb-12">
+                    <span class="text-percet-electric font-mono text-xs uppercase tracking-widest">Respaldo Empresarial</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2 mb-4 tracking-tight">
+                        Sobre PERCET UNIVERSAL HOLDINGS S.A.C.
+                    </h2>
+                    <p class="text-slate-300 text-base leading-relaxed">
+                        Somos una firma peruana formalmente constituida (<strong class="text-white font-mono">RUC 20614633345 - Activo y Habido</strong>), que articula experiencia gerencial en concesionarias e infraestructura, ingeniería de detalle y herramientas tecnológicas propias para entregar obras seguras, trazables y rentables.
+                    </p>
+                </div>
+
+                <!-- 3 Tarjetas Institucionales (Misión, Visión, Propósito con Iconos Lucide) -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="cobalt-card rounded-2xl p-7">
+                        <div class="w-11 h-11 rounded-xl bg-percet-abyss border border-slate-700 flex items-center justify-center text-percet-electric mb-5">
+                            <i data-lucide="compass" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3">Misión</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">
+                            Brindar soluciones integrales de ingeniería, construcción, estructuras metálicas, adecuación Drywall e innovación tecnológica con los más altos estándares de calidad, seguridad y eficiencia para el desarrollo sostenible de nuestros clientes en el Perú.
+                        </p>
+                    </div>
+
+                    <div class="cobalt-card rounded-2xl p-7">
+                        <div class="w-11 h-11 rounded-xl bg-percet-abyss border border-slate-700 flex items-center justify-center text-percet-amber mb-5">
+                            <i data-lucide="telescope" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3">Visión</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">
+                            Consolidarnos como el referente nacional en ejecución de proyectos de ingeniería B2B y consultoría tecnológica ConTech, reconocidos por nuestra precisión técnica, cumplimiento de plazos y cultura de seguridad innegociable.
+                        </p>
+                    </div>
+
+                    <div class="cobalt-card rounded-2xl p-7">
+                        <div class="w-11 h-11 rounded-xl bg-percet-abyss border border-slate-700 flex items-center justify-center text-emerald-400 mb-5">
+                            <i data-lucide="workflow" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3">Propósito</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">
+                            Proteger y potenciar la continuidad operativa de la industria peruana mediante infraestructura resiliente, gestión transparente de recursos y alianzas estratégicas de largo plazo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sub-bloque B: Metodología de Ejecución en 4 Etapas -->
+            <div>
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+                    <div>
+                        <span class="text-percet-amber font-mono text-xs uppercase tracking-widest">Trazabilidad de Principio a Fin</span>
+                        <h3 class="text-2xl sm:text-3xl font-extrabold text-white mt-1">Metodología de Ejecución PERCET en 4 Fases</h3>
+                    </div>
+                    <span class="text-xs font-mono text-slate-400">Control de Costos, Plazos y Calidad</span>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-percet-abyss/90 border border-slate-800 rounded-2xl p-6 relative">
+                        <div class="font-mono text-xs font-bold text-percet-electric mb-3">FASE 01</div>
+                        <h4 class="text-base font-bold text-white mb-2">Ingeniería y Modelado BIM</h4>
+                        <p class="text-xs text-slate-400 leading-relaxed">Levantamiento en campo, cálculo estructural y compatibilización digital para eliminar interferencias antes de iniciar obra.</p>
+                    </div>
+
+                    <div class="bg-percet-abyss/90 border border-slate-800 rounded-2xl p-6 relative">
+                        <div class="font-mono text-xs font-bold text-percet-electric mb-3">FASE 02</div>
+                        <h4 class="text-base font-bold text-white mb-2">Planificación Lean & Clima</h4>
+                        <p class="text-xs text-slate-400 leading-relaxed">Programación maestra con <em>Last Planner System</em> y validación de ventana meteorológica mediante PERCET GeoRisk™ 360.</p>
+                    </div>
+
+                    <div class="bg-percet-abyss/90 border border-slate-800 rounded-2xl p-6 relative">
+                        <div class="font-mono text-xs font-bold text-percet-amber mb-3">FASE 03</div>
+                        <h4 class="text-base font-bold text-white mb-2">Ejecución con Rigor SSOMA</h4>
+                        <p class="text-xs text-slate-400 leading-relaxed">Despliegue de cuadrillas homologadas con SCTR, matriz IPERC, supervisión de trabajos en altura/caliente y control diario de avance.</p>
+                    </div>
+
+                    <div class="bg-percet-abyss/90 border border-slate-800 rounded-2xl p-6 relative">
+                        <div class="font-mono text-xs font-bold text-emerald-400 mb-3">FASE 04</div>
+                        <h4 class="text-base font-bold text-white mb-2">Protocolización y As-Built</h4>
+                        <p class="text-xs text-slate-400 leading-relaxed">Pruebas de calidad (megado, presión, torque), entrega de Dossier Técnico y planos <em>As-Built</em> definitivos para el cliente.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sub-bloque C: Valores Institucionales (Grilla Simétrica 2x2) -->
+            <div>
+                <div class="text-center max-w-2xl mx-auto mb-10">
+                    <span class="text-percet-electric font-mono text-xs uppercase tracking-widest">Pilares Corporativos</span>
+                    <h3 class="text-2xl sm:text-3xl font-extrabold text-white mt-1">Nuestros Valores Institucionales</h3>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                    <div class="cobalt-card rounded-2xl p-7 flex items-start gap-5">
+                        <div class="w-12 h-12 rounded-xl bg-percet-abyss border border-slate-700 flex items-center justify-center text-percet-electric flex-shrink-0">
+                            <i data-lucide="award" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-base font-bold text-white mb-1.5">Excelencia Técnica</h4>
+                            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">Cumplimiento estricto de las normas técnicas peruanas (RNE/CNE) y estándares internacionales de ingeniería en cada entregable.</p>
+                        </div>
+                    </div>
+
+                    <div class="cobalt-card rounded-2xl p-7 flex items-start gap-5">
+                        <div class="w-12 h-12 rounded-xl bg-percet-abyss border border-slate-700 flex items-center justify-center text-percet-silver flex-shrink-0">
+                            <i data-lucide="scale" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-base font-bold text-white mb-1.5">Integridad y Transparencia</h4>
+                            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">Ética corporativa absoluta en presupuestos, metrados, valorizaciones y relaciones contractuales B2B y con el Estado.</p>
+                        </div>
+                    </div>
+
+                    <div class="cobalt-card rounded-2xl p-7 flex items-start gap-5">
+                        <div class="w-12 h-12 rounded-xl bg-percet-abyss border border-slate-700 flex items-center justify-center text-percet-amber flex-shrink-0">
+                            <i data-lucide="hard-hat" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-base font-bold text-white mb-1.5">Seguridad Innegociable</h4>
+                            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">Protección prioritaria de la vida e integridad en cada maniobra de altura, montaje estructural o adecuación en planta.</p>
+                        </div>
+                    </div>
+
+                    <div class="cobalt-card rounded-2xl p-7 flex items-start gap-5">
+                        <div class="w-12 h-12 rounded-xl bg-percet-abyss border border-slate-700 flex items-center justify-center text-emerald-400 flex-shrink-0">
+                            <i data-lucide="cpu" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-base font-bold text-white mb-1.5">Innovación Tecnológica</h4>
+                            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">Integración de analítica de datos, software propio y metodologías BIM/VDC para maximizar el retorno de inversión.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- =====================================================================
+         SECCIÓN 07: CASOS DE ÉXITO Y REFERENCIAS CORPORATIVAS + HOMOLOGACIÓN B2B
+         ===================================================================== -->
+    <section id="casos" class="py-20 lg:py-24 bg-percet-abyss border-b border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Encabezado Casos de Éxito y Referencias Corporativas -->
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-percet-electric font-mono text-xs uppercase tracking-widest">Respaldo y Desempeño en Campo</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2 mb-4 tracking-tight">
+                    Casos de Éxito y Referencias Corporativas
+                </h2>
+                <p class="text-slate-400 text-base">
+                    Valoraciones verificadas de gerencias generales, empresas del sector eléctrico estatal y contratistas que confiaron en nuestro rigor técnico.
+                </p>
+            </div>
+
+            <!-- 3 Tarjetas de Referencias Corporativas Actualizadas -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
+                
+                <!-- Tarjeta 1: QALVAN (David Muro) -->
+                <div class="cobalt-card rounded-2xl p-7 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between gap-2 mb-5 pb-4 border-b border-slate-800">
+                            <span class="font-mono text-[11px] text-percet-electric bg-percet-abyss px-2.5 py-1 rounded border border-slate-800">
+                                Ingeniería Estructural • NTE E.030 / E.090
+                            </span>
+                            <span class="text-xs font-bold text-emerald-400 flex-shrink-0">100% En Plazo</span>
+                        </div>
+                        <p class="text-slate-200 text-sm leading-relaxed mb-6">
+                            "Excelente desempeño en la evaluación estructural, cálculo de ingeniería y adecuación de nuestra infraestructura. El equipo de PERCET demostró un alto rigor técnico y solvencia corporativa, cumpliendo los plazos establecidos y las normativas NTE E.030 y E.090 al pie de la letra."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3.5 pt-4 border-t border-slate-800/80">
+                        <div class="w-10 h-10 rounded-lg bg-percet-cobalt border border-sky-500/30 flex items-center justify-center text-white font-bold text-xs font-mono">
+                            DM
+                        </div>
+                        <div>
+                            <div class="text-sm font-bold text-white">David Muro</div>
+                            <div class="text-xs text-slate-400">CEO — QALVAN</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 2: Electrosur (Wilson Medina - Empresa del Estado) -->
+                <div class="cobalt-card rounded-2xl p-7 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between gap-2 mb-5 pb-4 border-b border-slate-800">
+                            <span class="font-mono text-[11px] text-percet-amber bg-percet-abyss px-2.5 py-1 rounded border border-slate-800">
+                                Consultoría Eléctrica • Soterramiento CNE
+                            </span>
+                            <span class="text-xs font-bold text-emerald-400 flex-shrink-0">Viabilidad Aprobada</span>
+                        </div>
+                        <p class="text-slate-200 text-sm leading-relaxed mb-6">
+                            "Agradecemos a PERCET UNIVERSAL HOLDINGS por la consultoría especializada de ingeniería para el proyecto de soterramiento de cableado eléctrico y reordenamiento de redes de media y baja tensión. Su rigurosidad normativa bajo el Código Nacional de Electricidad (CNE) e integración técnica garantizan infraestructura segura y moderna para el servicio público."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3.5 pt-4 border-t border-slate-800/80">
+                        <div class="w-10 h-10 rounded-lg bg-percet-cobalt border border-sky-500/30 flex items-center justify-center text-white font-bold text-xs font-mono">
+                            WM
+                        </div>
+                        <div>
+                            <div class="text-sm font-bold text-white">Wilson Medina</div>
+                            <div class="text-xs text-slate-400">GG — Electrosur</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 3: TNC Contratistas -->
+                <div class="cobalt-card rounded-2xl p-7 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between gap-2 mb-5 pb-4 border-b border-slate-800">
+                            <span class="font-mono text-[11px] text-sky-300 bg-percet-abyss px-2.5 py-1 rounded border border-slate-800">
+                                Modelado BIM • Renders y Planos As-Built
+                            </span>
+                            <span class="text-xs font-bold text-emerald-400 flex-shrink-0">Cero Interferencias</span>
+                        </div>
+                        <p class="text-slate-200 text-sm leading-relaxed mb-6">
+                            "Agradecemos al equipo técnico de PERCET por el desarrollo de renders fotorrealistas, modelado BIM y elaboración de planos As-Built para nuestro proyecto. Su precisión en el levantamiento, compatibilización de especialidades y rapidez de respuesta optimizaron la entrega de nuestro expediente técnico."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3.5 pt-4 border-t border-slate-800/80">
+                        <div class="w-10 h-10 rounded-lg bg-percet-cobalt border border-sky-500/30 flex items-center justify-center text-white font-bold text-xs font-mono">
+                            TC
+                        </div>
+                        <div>
+                            <div class="text-sm font-bold text-white">TNC Contratistas</div>
+                            <div class="text-xs text-slate-400">Gerencia de Proyectos y Construcción</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Sub-bloque: CONVOCATORIA NACIONAL DE SUBCONTRATISTAS (Alianzas PERCET B2B) -->
+            <div id="alianzas" class="rounded-2xl bg-gradient-to-r from-percet-navy via-percet-cobalt to-percet-navy border border-slate-700 p-7 sm:p-10">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-8">
+                        <div class="inline-flex items-center gap-2 text-percet-amber font-mono text-xs font-bold uppercase tracking-wider mb-2">
+                            <i data-lucide="users" class="w-4 h-4"></i> Alianzas Estratégicas y Expansión Nacional
+                        </div>
+                        <h3 class="text-2xl font-extrabold text-white mb-3">
+                            Homologación de Subcontratistas: Techos Metálicos, Drywall y Obras Civiles
+                        </h3>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-5">
+                            Ante la alta demanda por la temporada de lluvias y proyectos corporativos, integramos maestros contratistas y cuadrillas especializadas en todo el Perú. Ofrecemos <strong>adelantos por contrato, pagos puntuales por valorización y soporte completo de Oficina Técnica (planos y BIM)</strong>.
+                        </p>
+                        <div class="flex flex-wrap gap-3 text-xs font-mono text-slate-300">
+                            <span class="px-3 py-1 rounded bg-percet-abyss/80 border border-slate-700">Requisito: RUC 10 o 20 Activo</span>
+                            <span class="px-3 py-1 rounded bg-percet-abyss/80 border border-slate-700">+5 Años de Experiencia</span>
+                            <span class="px-3 py-1 rounded bg-percet-abyss/80 border border-slate-700">EPPs de Altura y Herramientas Propias</span>
+                            <span class="px-3 py-1 rounded bg-percet-abyss/80 border border-slate-700">Disposición SCTR</span>
+                        </div>
+                    </div>
+                    <div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-3">
+                        <a href="https://wa.me/51981328639?text=Hola%20Ing.%20Angie%20(CEO%20-%20PERCET),%20deseo%20postular%20al%20proceso%20de%20HOMOLOGACI%C3%93N%20DE%20SUBCONTRATISTAS%20(Especialidad:%20Techos%20Met%C3%A1licos%20/%20Drywall%20/%20Obras%20Civiles)." target="_blank" rel="noopener noreferrer" class="w-full py-3.5 px-5 rounded-xl bg-white hover:bg-slate-100 text-percet-abyss font-extrabold text-sm flex items-center justify-center gap-2 transition-all shadow-lg">
+                            <i data-lucide="user-check" class="w-4 h-4"></i>
+                            Postular por WhatsApp de Gerencia
+                        </a>
+                        <a href="https://alianzas-percet-b2b.streamlit.app" target="_blank" rel="noopener noreferrer" class="w-full py-3 px-5 rounded-xl bg-percet-abyss/90 hover:bg-percet-abyss text-sky-300 border border-sky-500/30 font-semibold text-xs flex items-center justify-center gap-2 transition-all">
+                            <i data-lucide="globe" class="w-4 h-4"></i>
+                            Portal Digital Alianzas PERCET B2B
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- =====================================================================
+         SECCIÓN 08: FORMULARIO DE COTIZACIÓN CON ENRUTAMIENTO A CEO WHATSAPP
+         ===================================================================== -->
+    <section id="contacto" class="py-20 lg:py-24 bg-percet-navy/40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                
+                <!-- Columna Izquierda: Datos Directos de Gerencia y Oficina Técnica -->
+                <div class="lg:col-span-5">
+                    <span class="text-percet-amber font-mono text-xs uppercase tracking-widest">Mesa de Partes y Cotizaciones</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2 mb-4 tracking-tight">
+                        Solicite una Cotización o Visita Técnica
+                    </h2>
+                    <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-8">
+                        Complete los datos de su requerimiento. El sistema estructurará su solicitud y la enviará directamente al WhatsApp de nuestra <strong>CEO & Gerencia General (+51 981 328 639)</strong> para atención prioritaria.
+                    </p>
+
+                    <div class="space-y-4">
+                        <div class="p-5 rounded-2xl bg-percet-abyss/90 border border-slate-800 flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-percet-amber/15 border border-percet-amber/40 flex items-center justify-center text-percet-amber flex-shrink-0">
+                                <i data-lucide="phone-call" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs font-mono uppercase text-slate-400">Línea Directa CEO / Gerencia General</div>
+                                <a href="https://wa.me/51981328639?text=Hola%20Ing.%20Angie%20-%20CEO%20de%20PERCET%20UNIVERSAL%20HOLDINGS%20S.A.C.,%20me%20comunico%20desde%20su%20p%C3%A1gina%20web%20para%20solicitar%20una%20cotizaci%C3%B3n." target="_blank" rel="noopener noreferrer" class="text-lg font-extrabold text-white hover:text-percet-amber transition-colors font-mono">
+                                    +51 981 328 639
+                                </a>
+                                <p class="text-xs text-slate-400 mt-0.5">Atención corporativa para licitaciones, contratos y urgencias.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-5 rounded-2xl bg-percet-abyss/90 border border-slate-800 flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-sky-500/15 border border-sky-500/40 flex items-center justify-center text-percet-electric flex-shrink-0">
+                                <i data-lucide="mail" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs font-mono uppercase text-slate-400">Oficina Técnica y Recepción de Planos</div>
+                                <a href="mailto:oficina.tecnica.puh@outlook.com" class="text-sm sm:text-base font-bold text-white hover:text-percet-electric transition-colors break-all">
+                                    oficina.tecnica.puh@outlook.com
+                                </a>
+                                <p class="text-xs text-slate-400 mt-0.5">Envío de términos de referencia (TDR), metrados y archivos CAD/BIM.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-5 rounded-2xl bg-percet-abyss/90 border border-slate-800 flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-emerald-500/15 border border-emerald-500/40 flex items-center justify-center text-emerald-400 flex-shrink-0">
+                                <i data-lucide="file-badge" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs font-mono uppercase text-slate-400">Razón Social y Registro SUNAT</div>
+                                <div class="text-sm font-bold text-white">PERCET UNIVERSAL HOLDINGS S.A.C.</div>
+                                <div class="text-xs text-emerald-400 font-mono mt-0.5">RUC: 20614633345 • Estado: Activo y Habido</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Columna Derecha: Formulario Interactivo de Cotización B2B -->
+                <div class="lg:col-span-7">
+                    <form id="b2b-quote-form" class="bg-percet-abyss/95 border border-slate-700/80 rounded-2xl p-6 sm:p-9 shadow-2xl space-y-5">
+                        <div class="flex items-center justify-between pb-4 border-b border-slate-800">
+                            <h3 class="text-lg font-bold text-white">Formulario de Solicitud de Cotización</h3>
+                            <span class="text-xs font-mono text-percet-electric">Respuesta &lt; 2 Horas</span>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                            <div>
+                                <label for="clientName" class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">Nombre y Cargo *</label>
+                                <input type="text" id="clientName" required placeholder="Ej. Ing. Roberto Gómez - Jefe de Planta" class="w-full px-4 py-3 rounded-xl bg-percet-navy/70 border border-slate-700 text-white text-sm placeholder-slate-500 focus:outline-none focus:border-percet-electric">
+                            </div>
+                            <div>
+                                <label for="clientCompany" class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">Empresa o RUC *</label>
+                                <input type="text" id="clientCompany" required placeholder="Nombre de la empresa o RUC" class="w-full px-4 py-3 rounded-xl bg-percet-navy/70 border border-slate-700 text-white text-sm placeholder-slate-500 focus:outline-none focus:border-percet-electric">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                            <div>
+                                <label for="serviceLine" class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">Especialidad Requerida *</label>
+                                <select id="serviceLine" required class="w-full px-4 py-3 rounded-xl bg-percet-navy/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-percet-electric">
+                                    <option value="URGENCIA: Techos Metálicos y Drenaje (Fenómeno del Niño)">1. URGENCIA: Techos Metálicos / Fenómeno del Niño</option>
+                                    <option value="Remodelación Corporativa y Sistema Drywall (INDECI A.130)">2. Remodelación Corporativa y Sistema Drywall</option>
+                                    <option value="Obras Civiles y Evaluación Estructural (NTE E.030/E.060)">3. Obras Civiles y Evaluación Estructural</option>
+                                    <option value="Instalaciones Eléctricas (CNE) y Redes Sanitarias/HDPE">4. Instalaciones Eléctricas (CNE) y Redes Sanitarias</option>
+                                    <option value="Consultoría BIM/VDC, Planos As-Built o PERCET GeoRisk 360">5. Consultoría BIM/VDC o PERCET GeoRisk™ 360</option>
+                                    <option value="Homologación como Subcontratista Aliado">6. Postular como Subcontratista Homologado</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="projectLocation" class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">Ubicación del Proyecto *</label>
+                                <input type="text" id="projectLocation" required placeholder="Distrito / Ciudad (Ej. Ate, Lurín, Piura)" class="w-full px-4 py-3 rounded-xl bg-percet-navy/70 border border-slate-700 text-white text-sm placeholder-slate-500 focus:outline-none focus:border-percet-electric">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="projectScope" class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">Cotización *</label>
+                            <textarea id="projectScope" rows="3" required placeholder="Describa los detalles de su requerimiento, área aproximada en m² o especificaciones para su cotización..." class="w-full px-4 py-3 rounded-xl bg-percet-navy/70 border border-slate-700 text-white text-sm placeholder-slate-500 focus:outline-none focus:border-percet-electric"></textarea>
+                        </div>
+
+                        <!-- Caja de confirmación visual -->
+                        <div id="form-feedback" class="hidden p-3.5 rounded-xl bg-emerald-500/15 border border-emerald-500/40 text-emerald-300 text-xs font-medium">
+                            Redirigiendo su solicitud de cotización al WhatsApp de Gerencia General (+51 981 328 639)...
+                        </div>
+
+                        <button type="submit" class="w-full py-4 px-6 rounded-xl bg-gradient-to-r from-percet-amber to-percet-amberDark hover:from-orange-500 hover:to-orange-700 text-white font-extrabold text-sm sm:text-base transition-all shadow-xl shadow-orange-600/25 flex items-center justify-center gap-2.5">
+                            <i data-lucide="send" class="w-5 h-5"></i>
+                            Enviar Solicitud de Cotización al WhatsApp de CEO (+51 981 328 639)
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================================================================
+         PIE DE PÁGINA INSTITUCIONAL (FOOTER)
+         ===================================================================== -->
+    <footer class="bg-percet-abyss pt-14 pb-10 border-t border-slate-800 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-10 border-b border-slate-800/80">
+                
+                <!-- Columna 1: Identidad y Logo -->
+                <div class="md:col-span-5">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 rounded-lg bg-percet-cobalt border border-sky-400/40 flex items-center justify-center font-black text-white tracking-wider">
+                            P
+                        </div>
+                        <div>
+                            <div class="font-black text-white tracking-widest">PERCET UNIVERSAL HOLDINGS S.A.C.</div>
+                            <div class="text-xs font-mono text-percet-electric">RUC: 20614633345 • Activo y Habido</div>
+                        </div>
+                    </div>
+                    <p class="text-slate-400 text-xs leading-relaxed max-w-md">
+                        Empresa peruana de ingeniería, ejecución de estructuras metálicas, coberturas pluviales (Contingencia El Niño), remodelación corporativa con Drywall, obras civiles y consultoría tecnológica BIM/VDC.
+                    </p>
+                </div>
+
+                <!-- Columna 2: Accesos Rápidos -->
+                <div class="md:col-span-3">
+                    <h4 class="text-xs font-mono uppercase tracking-wider text-white font-bold mb-4">Divisiones Operativas</h4>
+                    <ul class="space-y-2 text-xs text-slate-400">
+                        <li><a href="#estructuras-drywall" class="hover:text-white transition-colors">Techos Metálicos (NTE E.090)</a></li>
+                        <li><a href="#estructuras-drywall" class="hover:text-white transition-colors">Remodelación Drywall (INDECI A.130)</a></li>
+                        <li><a href="#servicios" class="hover:text-white transition-colors">Obras Civiles e Instalaciones (CNE)</a></li>
+                        <li><a href="https://percet-georisk-360.streamlit.app" target="_blank" rel="noopener noreferrer" class="hover:text-percet-electric transition-colors">Plataforma PERCET GeoRisk™ 360</a></li>
+                        <li><a href="#alianzas" class="hover:text-white transition-colors">Homologación de Subcontratistas</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna 3: Contacto Gerencial -->
+                <div class="md:col-span-4">
+                    <h4 class="text-xs font-mono uppercase tracking-wider text-white font-bold mb-4">Contacto Corporativo</h4>
+                    <ul class="space-y-2.5 text-xs text-slate-300">
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="phone" class="w-4 h-4 text-percet-amber"></i>
+                            <span>CEO WhatsApp: <strong class="font-mono text-white">+51 981 328 639</strong></span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="mail" class="w-4 h-4 text-percet-electric"></i>
+                            <span>oficina.tecnica.puh@outlook.com</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-lucide="map-pin" class="w-4 h-4 text-emerald-400"></i>
+                            <span>Lima, Perú (Operaciones a Nivel Nacional)</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+                <p>&copy; 2026 PERCET UNIVERSAL HOLDINGS S.A.C. Todos los derechos reservados.</p>
+                <p class="font-mono">Normativa Técnica Peruana: RNE • NTE E.090 • NTE E.030 • RNE A.130 • CNE</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- =====================================================================
+         BOTÓN FLOTANTE DE WHATSAPP DIRECTO AL NÚMERO CEO (+51 981 328 639)
+         ===================================================================== -->
+    <a href="https://wa.me/51981328639?text=Hola%20Ing.%20Angie%20-%20CEO%20de%20PERCET%20UNIVERSAL%20HOLDINGS%20S.A.C.,%20me%20comunico%20desde%20su%20p%C3%A1gina%20web%20para%20solicitar%20una%20cotizaci%C3%B3n."
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Contactar por WhatsApp con CEO de PERCET (+51 981 328 639)"
+       class="fixed bottom-6 right-6 z-50 flex items-center gap-3 bg-[#10B981] hover:bg-[#059669] text-white pl-4 pr-5 py-3.5 rounded-full shadow-2xl shadow-emerald-600/40 border border-emerald-300/40 transition-all duration-300 hover:scale-105 group">
+        <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center">
+            <i data-lucide="message-circle" class="w-5 h-5 text-white"></i>
+        </div>
+        <div class="flex flex-col text-left">
+            <span class="text-[10px] font-mono uppercase tracking-wider text-emerald-100 leading-none">Atención Directa CEO</span>
+            <span class="text-xs sm:text-sm font-extrabold leading-tight mt-0.5">Cotizar por WhatsApp</span>
+        </div>
+    </a>
+
+    <!-- =====================================================================
+         SCRIPTS DE INICIALIZACIÓN Y ENRUTAMIENTO DE FORMULARIO A WHATSAPP
+         ===================================================================== -->
+    <script>
+        // 1. Inicializar iconos vectoriales Lucide
+        lucide.createIcons();
+
+        // 2. Control del menú móvil
+        const mobileBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        if (mobileBtn && mobileMenu) {
+            mobileBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            mobileMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                });
+            });
+        }
+
+        // 3. Envío inteligente del formulario de Cotización al WhatsApp de la CEO (+51 981328639)
+        const quoteForm = document.getElementById('b2b-quote-form');
+        const feedbackBox = document.getElementById('form-feedback');
+
+        if (quoteForm) {
+            quoteForm.addEventListener('submit', function(event) {
+                event.preventDefault();
+
+                const name = document.getElementById('clientName').value.trim();
+                const company = document.getElementById('clientCompany').value.trim();
+                const service = document.getElementById('serviceLine').value;
+                const location = document.getElementById('projectLocation').value.trim();
+                const quoteDetails = document.getElementById('projectScope').value.trim();
+
+                const messageLines = [
+                    "Hola Ing. Angie - CEO de PERCET UNIVERSAL HOLDINGS S.A.C., deseo solicitar una *COTIZACIÓN* desde la web:",
+                    "",
+                    "• *Contacto / Cargo:* " + name,
+                    "• *Empresa / RUC:* " + company,
+                    "• *Línea Requerida:* " + service,
+                    "• *Ubicación de Obra:* " + location,
+                    "• *Cotización:* " + quoteDetails
+                ];
+
+                const encodedMessage = encodeURIComponent(messageLines.join("\n"));
+                const whatsappUrl = "https://wa.me/51981328639?text=" + encodedMessage;
+
+                if (feedbackBox) {
+                    feedbackBox.classList.remove('hidden');
+                }
+
+                window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+            });
+        }
+    </script>
+</body>
+</html>
